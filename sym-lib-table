@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name esc)(type Legacy)(uri ${KIPRJMOD}/esc.lib)(options "")(descr ""))
+)
