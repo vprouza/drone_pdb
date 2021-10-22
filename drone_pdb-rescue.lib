@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# drone_pdb-rescue_Conn_01x02_Female-Connector
+# Conn_01x02_Female-Connector
 #
-DEF drone_pdb-rescue_Conn_01x02_Female-Connector J 0 40 Y N 1 F N
+DEF Conn_01x02_Female-Connector J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "drone_pdb-rescue_Conn_01x02_Female-Connector" 0 -200 50 H V C CNN
+F1 "Conn_01x02_Female-Connector" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -21,11 +21,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# drone_pdb-rescue_Conn_01x02_Male-Connector
+# Conn_01x02_Male-Connector
 #
-DEF drone_pdb-rescue_Conn_01x02_Male-Connector J 0 40 Y N 1 F N
+DEF Conn_01x02_Male-Connector J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "drone_pdb-rescue_Conn_01x02_Male-Connector" 0 -200 50 H V C CNN
+F1 "Conn_01x02_Male-Connector" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -41,11 +41,11 @@ X Pin_2 2 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# drone_pdb-rescue_Conn_01x03_Female-Connector
+# Conn_01x03_Female-Connector
 #
-DEF drone_pdb-rescue_Conn_01x03_Female-Connector J 0 40 Y N 1 F N
+DEF Conn_01x03_Female-Connector J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "drone_pdb-rescue_Conn_01x03_Female-Connector" 0 -200 50 H V C CNN
+F1 "Conn_01x03_Female-Connector" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -64,11 +64,11 @@ X Pin_3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# drone_pdb-rescue_Conn_01x03_Male-Connector
+# Conn_01x03_Male-Connector
 #
-DEF drone_pdb-rescue_Conn_01x03_Male-Connector J 0 40 Y N 1 F N
+DEF Conn_01x03_Male-Connector J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "drone_pdb-rescue_Conn_01x03_Male-Connector" 0 -200 50 H V C CNN
+F1 "Conn_01x03_Male-Connector" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -84,25 +84,6 @@ P 2 1 1 6 50 100 34 100 N
 X Pin_1 1 200 100 150 L 50 50 1 1 P
 X Pin_2 2 200 0 150 L 50 50 1 1 P
 X Pin_3 3 200 -100 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# esc_JMT_BS30D_30A
-#
-DEF esc_JMT_BS30D_30A U 0 40 Y Y 1 F N
-F0 "U" 0 550 50 H V C CNN
-F1 "esc_JMT_BS30D_30A" 0 450 50 H V C CNN
-F2 "" 0 550 50 H I C CNN
-F3 "" 0 550 50 H I C CNN
-DRAW
-S -300 400 300 -400 0 1 0 f
-X A ~ 400 200 100 L 50 50 1 1 w
-X B ~ 400 0 100 L 50 50 1 1 w
-X Bat+ ~ -400 300 100 R 50 50 1 1 W
-X Bat- ~ -400 -300 100 R 50 50 1 1 W
-X C ~ 400 -200 100 L 50 50 1 1 w
-X GND ~ -400 -50 100 R 50 50 1 1 I
-X PWM ~ -400 50 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

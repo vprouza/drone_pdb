@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name esc)(type Legacy)(uri ${KIPRJMOD}/esc.lib)(options "")(descr ""))
+  (lib (name drone_pdb-rescue)(type Legacy)(uri ${KIPRJMOD}/drone_pdb-rescue.lib)(options "")(descr ""))
 )
